@@ -4,11 +4,11 @@ module twoto4decoder_testbench;
     reg [1:0] in1;
     reg en;
 
-    wire p0, p1, p2, p3;
+    wire [3:0] outtest;
 
     integer i;
 
-    twoto4decoder uut(.en(en), .in(in1), .p0(p0), .p1(p1), .p2(p2), .p3(p3));
+    twoto4decoder uut(.en(en), .in(in1), .out(outtest));
 
     initial
         begin
