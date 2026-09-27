@@ -1,5 +1,6 @@
 # Icarus Verilog compiled binaries
 sim_binary
+sim_bin
 *.out
 *.vvp
 *.exe
