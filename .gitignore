@@ -1,0 +1,19 @@
+# Icarus Verilog compiled binaries
+sim_binary
+*.out
+*.vvp
+*.exe
+
+# Waveform dump files
+*.vcd
+*.fst
+*.lxt
+*.lxt2
+
+# GTKWave layout save files
+*.gtkw
+
+# Editor and OS clutter
+.vscode/
+Thumbs.db
+Desktop.ini
