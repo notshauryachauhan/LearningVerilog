@@ -1,4 +1,4 @@
-module shift_registor #(parameter bits = 8)(
+module shift_register #(parameter bits = 8)(
     input wire clk, reset,
     input wire data_in,
     output wire data_out
